@@ -46,7 +46,7 @@ int main(void) {
       printf("%d", slicnost[i]);
       if (i != DULJINA_BROJA - 1) printf("\n");
    }
-   if (slicnost[DULJINA_BROJA] >= 1) {
+   if (slicnost[DULJINA_BROJA - 1] >= 1) {
       printf(" <-- Broj se nalazi u imeniku!");
    }
 
