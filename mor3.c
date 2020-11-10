@@ -48,6 +48,8 @@ int main(void) {
    }
    if (slicnost[DULJINA_BROJA - 1] >= 1) {
       printf(" <-- Broj se nalazi u imeniku!");
+   } else {
+      printf(" <-- Broj se ne nalazi u imeniku!");
    }
 
    return 0;
