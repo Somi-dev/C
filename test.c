@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int zbrojz(int a) {
-   int broj, rez;
-   broj = a % 10;
-   if (a == 0) {
-      return 0;
-   } else if (a > 0) {
-      rez = broj + zbrojz(a / 10);
+   int rez = 0;
+   while (a > 0) {
+      rez += a % 10;
+      a /= 10;
+   }
+   if (rez > 9) {
+      zbrojz(rez);
+   } else {
+      return rez;
    }
 }
 
