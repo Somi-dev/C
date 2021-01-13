@@ -3,7 +3,7 @@
 int main(void) {
    int n, min, max, *p = NULL;
 
-   printf("Upisite broj clanova polja[4,19>: ");
+   printf("Upisite broj clanova polja [4,19>: ");
    while (scanf("%d", &n), n < 4 || n >= 19) {
       printf("Neispravan broj");
    }
