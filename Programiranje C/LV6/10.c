@@ -4,8 +4,9 @@
 
 int zbrojASCII(char *niz) {
    int suma = 0;
-   for (int i = 0; i < strlen(niz); i++) {
-      suma += *(niz + i);
+   while (*niz != '\0') {
+      suma += *niz;
+      niz++;
    }
    return suma;
 }
