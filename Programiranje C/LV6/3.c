@@ -16,7 +16,7 @@ int main(void) {
    }
 
    min = max = *p;
-   for (int i = 0; i < n; i++) {
+   for (int i = 1; i < n; i++) {
       min = min > *(p + i) ? *(p + i) : min;
       max = max < *(p + i) ? *(p + i) : max;
    }
