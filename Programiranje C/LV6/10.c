@@ -17,7 +17,7 @@ int main(void) {
    if (zbrojASCII(niz) % strlen(niz) == 0) {
       printf("Zbroj ASCII vrijednosti niza je djeljiv s duljinom stringa");
    } else {
-      printf("Zbroj ASCII vrijednosti niza je djeljiv s duljinom stringa");
+      printf("Zbroj ASCII vrijednosti niza nije djeljiv s duljinom stringa");
    }
    return 0;
 }
