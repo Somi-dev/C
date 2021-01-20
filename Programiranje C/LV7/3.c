@@ -13,6 +13,7 @@ void nasumicnoPolje(double *p, int n) {
          *(p + i) = temp;
       } else {
          i--;
+      }
    }
 }
 
@@ -27,7 +28,7 @@ int main(void) {
    scanf("%d", &n);
    nasumicnoPolje(p, n);
    for (int i = 0; i < n; i++) {
-      printf("%.2f\n", *(p + i));
+      printf("%.2lf\n", *(p + i));
    }
    free(p);
    return 0;
