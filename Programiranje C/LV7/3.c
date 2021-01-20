@@ -11,7 +11,8 @@ void nasumicnoPolje(double *p, int n) {
       temp = (double)rand() / RAND_MAX * (DG - GG) + GG;
       if (temp != -n && temp != 0) {
          *(p + i) = temp;
-      }
+      } else {
+         i--;
    }
 }
 
