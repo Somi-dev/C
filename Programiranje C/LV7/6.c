@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int randfunkc(int GG, int DG) {
+int randNeparan(int GG, int DG) {
    int rez;
    do {
       rez = (rand() % (GG - DG + 1)) + DG;
@@ -13,6 +13,6 @@ int randfunkc(int GG, int DG) {
 int main(int argc, char *argv[]) {
    srand((unsigned int)time(NULL));
    for (int i = 0; i < 128; i++) {
-      printf("%5d\n", randfunkc(2998, -2368));
+      printf("%5d\n", randNeparan(2998, -2368));
    }
 }
