@@ -1,0 +1,11 @@
+Napisati definiciju funkcije koja određuje i vraća koliko je elemenata predanog joj
+cjelobrojnog polja manje od aritmetičke sredine svih elemenata. Funkcija mora moći raditi s
+poljima proizvoljne veličine.
+
+double aritSred(int *p, int n) {
+   double suma = 0;
+   for(int i = 0; i < n; i++) {
+      suma = *(p + i);
+   }
+   return suma / n;
+}

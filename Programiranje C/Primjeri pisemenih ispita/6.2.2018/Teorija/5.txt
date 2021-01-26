@@ -1,0 +1,6 @@
+Napisati prototip funkcije koja postavlja sve elemente prednog joj polja realnih brojeva
+na zadanu vrijednost (predaje se kao argument funkciji). Funkcija mora moći raditi s poljima
+proizvoljne veličine.
+
+void popuniPolje(float *p, int n) {
+}

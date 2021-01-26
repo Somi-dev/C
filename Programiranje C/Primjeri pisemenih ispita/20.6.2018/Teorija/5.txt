@@ -1,0 +1,3 @@
+Napisati prototip funkcije koja postavlja sve elemente danog polja na vrijednosti·π,gdje jeiindeks elementa.
+
+float mnozenjePI(float polje[], int n)

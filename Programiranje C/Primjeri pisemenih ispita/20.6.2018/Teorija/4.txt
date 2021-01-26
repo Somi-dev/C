@@ -1,0 +1,11 @@
+Napisati definiciju funkcije koja određuje i vraća najveći parni broj u danom cjelo-brojnom polju.
+
+int najveciParniBroj(int polje[], int n) {
+   max = 0;
+   for(int i = 0; i < n; i++) {
+      if(polje[i] % 2 == 0) {
+         if (polje[i] > max) max = polje[i];
+      }
+   }
+   return max;
+}

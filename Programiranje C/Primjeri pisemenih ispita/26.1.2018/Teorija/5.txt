@@ -1,0 +1,5 @@
+Napisati prototip funkcije koja određuje i vraća koliko elemenata u predanom joj polju
+realnih brojeva (proizvoljne veličine) ima vrijednost veću od zadane (predaje se kao argument
+funkciji).
+
+int vecaOdZadane(double *p, int n)

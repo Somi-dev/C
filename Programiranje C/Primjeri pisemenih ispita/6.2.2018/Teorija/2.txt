@@ -1,0 +1,3 @@
+double * p = ( double *) calloc ( sizeof ( double ) * 2 , 10);
+
+zauzima 16 blokova memorije po 10 bajtova = 160 bajtova

@@ -1,0 +1,7 @@
+Koliko bajta memorije se dinamički zauzima izvršavanjem naredbe u nastavku?
+Obrazložiti odgovor. Tip podatka int zauzima 4 bajta.
+
+int * p = (int*)malloc(sizeof(int) * 10 + sizeof(int) * 5);
+
+sizeof(int) = 4
+(int*)malloc(4 * 10 + 4 * 5) --> (int*)malloc(60)

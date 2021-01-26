@@ -1,0 +1,12 @@
+Napisati definiciju funkcije koja određuje i vraća koliko je elemenata predanog joj
+cjelobrojnog polja parno i ujedno dijeljivo sa sedam. Funkcija mora moći raditi s poljima
+proizvoljne veličine.
+
+int parnoDjeljivoSedam(int *p, int n) {
+   intr brojac = 0;
+   for(int i = 0, i < n; i++) {
+      if(*(p + i) % 2 == 0 && *(p + i) % 7 == 0)
+      brojac++;
+   }
+   return brojac;
+}

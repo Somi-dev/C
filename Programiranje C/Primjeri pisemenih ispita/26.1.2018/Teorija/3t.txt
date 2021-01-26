@@ -1,0 +1,8 @@
+Kako će izgledati i što će biti ispisano na ekran izvođenjem sljedećeg dijela programskog kôda?
+
+for (a = -2, b = 4; a > 4; b -= 1, a++)
+   if (a / 2)
+      printf ("%d\n", a * b);
+
+nece ispisati nista jer u for loopu imamo -2 > 4, a to nije istina
+

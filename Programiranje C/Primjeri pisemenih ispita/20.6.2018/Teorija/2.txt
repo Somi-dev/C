@@ -1,0 +1,5 @@
+Ako 7. element polja tipa podatkaintima adresu 1124, koju adresu ima 22. elementtog polja? 
+Tip podatka int zauzima četiri bajta.
+
+7. element 1124
+22. element (22 - 7) * 4 + 1124 = 1184
