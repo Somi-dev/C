@@ -65,7 +65,7 @@ void posudbaFilma() {
 
    int n, f, sifra;
    while (scanf("%d%*c", &n), n >= 4) {
-      printf("Maksimalno mozete posuditi 4 filma.");
+      printf("Maksimalno mozete posuditi 3 filma.");
    }
 
    scanf("%d%*c", &sifra);
