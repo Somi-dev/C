@@ -8,10 +8,13 @@ int sumaZnamenaka(int n) {
 }
 
 int main(void) {
+   FILE *ulaz = NULL;
    int n;
    printf("Upisite cijeli broj: ");
    scanf("%d", &n);
    printf("Suma znamenaka je: %d", sumaZnamenaka(n));
-
+   ulaz = fopen("suma.txt", "w");
+   fprintf(ulaz, "%d", sumaZnamenaka(n));
+   fclose(ulaz);
    return 0;
 }
