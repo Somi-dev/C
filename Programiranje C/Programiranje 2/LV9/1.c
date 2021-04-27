@@ -1,18 +1,23 @@
 #include <stdio.h>
 int cnt = 1;
+FILE *ulaz = NULL;
 void piramida(unsigned int n) {
+   ulaz = fopen("pyramid.txt", "a");
    if (n == 0) {
       return;
    }
-   for (int i = 0; i < n; i++) {
+   for (int i = 0; i < n - 1; i++) {
       printf(" ");
+      fprintf(ulaz, " ");
    }
    for (int i = 0; i < cnt; i++) {
       printf("*");
+      fprintf(ulaz, "*");
    }
-   printf("  %d", cnt);
    printf("\n");
+   fprintf(ulaz, "\n");
    cnt += 2;
+   fclose(ulaz);
    piramida(n - 1);
 }
 
